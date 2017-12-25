@@ -121,7 +121,6 @@ bool guessnumber(int usernum, int list[], int &size){
             }
         }
         if (!((A == a)&&(B == b))) {
-            //cout << list[k] << endl;
             for (int m = k; m < size; m++) {
                 list[m] = list[m+1];
             }
@@ -129,6 +128,5 @@ bool guessnumber(int usernum, int list[], int &size){
             k--;
         }
     }
-    //cout << "size: " << size << endl;
     return false;
 }
